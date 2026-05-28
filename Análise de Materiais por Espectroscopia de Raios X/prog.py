@@ -1,7 +1,6 @@
 """
 Students:
 numero:   nome:
-numero:   nome:
 """
 
 import sqlite3
@@ -250,8 +249,11 @@ def do_chart(con: sqlite3.Connection, filename: str):
                         best_element = cand
                 
                 if best_element:
+                    cursor.execute("SELECT nome FROM Elementos WHERE simbolo = ?", (best_element,))
+                    row_nome = cursor.fetchone()
+                    nome_elemento = row_nome[0] if row_nome else best_element
                     plt.plot(energia_i, contagem_i, 'ko')
-                    plt.text(energia_i, contagem_i, f" {best_element}")
+                    plt.text(energia_i, contagem_i, f" {nome_elemento}")
                     
     plt.show()
 
