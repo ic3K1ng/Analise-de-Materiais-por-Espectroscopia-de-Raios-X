@@ -1,0 +1,4 @@
+>> >> Results for file Al.txt:
+peak	 element	 count
+1.489 Aluminium 139060.0
+>> 

@@ -1,0 +1,2 @@
+chart SrF3.txt
+quit

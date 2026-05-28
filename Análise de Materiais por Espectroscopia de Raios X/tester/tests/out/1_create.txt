@@ -1,0 +1,4 @@
+>> Database initialized
+>> tables created
+elements: [(92,)]
+xlines: [(316,)]

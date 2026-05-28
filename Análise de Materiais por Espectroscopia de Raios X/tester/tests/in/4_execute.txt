@@ -1,0 +1,6 @@
+initdb
+analyze SrF3.txt
+analyze Al.txt
+analyze unknown1.txt
+stats Al
+quit

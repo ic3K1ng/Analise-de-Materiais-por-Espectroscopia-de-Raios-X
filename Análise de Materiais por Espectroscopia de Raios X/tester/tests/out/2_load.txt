@@ -1,0 +1,3 @@
+>> Database initialized
+>> >> 1 Al.txt
+results: [(1,)]
