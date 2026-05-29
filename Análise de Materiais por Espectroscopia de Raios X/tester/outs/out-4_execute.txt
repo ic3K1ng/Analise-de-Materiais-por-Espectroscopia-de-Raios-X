@@ -1,4 +1,5 @@
->> >> >> >> >> 2 results with Aluminium
+>> Database initialized
+>> >> >> >> 2 results with Aluminium
 max count 139060.0
 min count 7033.1
 >> 

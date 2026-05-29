@@ -74,6 +74,7 @@ def do_initdb(con: sqlite3.Connection):
         pass
         
     con.commit()
+    print("Database initialized")
 
 def do_analyze(con: sqlite3.Connection, filename: str):
     real_file = filename
