@@ -1,6 +1,6 @@
 """
 Students:
-numero:   nome:
+numero: 66344   nome: Leisley Santingue
 """
 
 import sqlite3
